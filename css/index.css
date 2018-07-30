@@ -1,0 +1,144 @@
+
+#main{
+	position:relative;
+	width:1200px;
+	margin:0 auto;
+}
+#main #banner{
+	height:535px;
+	overflow:hidden;
+	clear:both;
+}
+#banner ul.banner-img{
+	margin:0 auto;
+	position:relative;
+}
+#main #banner ul.banner-img>li{
+	float:left;
+}
+/*左右方向按钮*/
+#banner a.ck-slide{
+	position:absolute;
+	top:250px;
+	width:35px;
+	height:70px;
+	border-radius:3px;
+	background:#000;
+	opacity:0.15;
+	transition:all .3s linear;
+}
+#banner a.ck-left{
+	left:5px;
+	background: #000 url(../img/banner/arrow-left.png) no-repeat center center;
+}
+#banner a.ck-right{
+	right:5px;
+	background:#000 url(../img/banner/arrow-right.png) no-repeat center center;
+}
+#banner a.ck-slide:hover{
+	opacity:0.3;
+}
+.banner-ind{
+	position:absolute;
+	top:480px;
+	left:520px;
+}
+.banner-ind li{
+	display:inline-block;
+	float:left;
+	width:30px;
+	height:30px;
+	border:1px solid gray;
+	border-radius:50%;
+	/*background:blue;*/
+	margin-right:10px;
+	cursor:pointer;
+}
+.ind{
+	background:blue;
+}
+/********������Ϣҵ**********/
+#index-details>div.flex{
+	margin:40px 0 40px 0;
+	
+}
+/**********图片鼠标悬停*****************/
+#index-details img:hover{
+	display:inline-block;
+	position:relative;
+	top:-2px;
+	left:-2px;
+	cursor:pointer;
+}
+/*秒杀框*/
+#leftTime{
+	position:relative;
+}
+#leftTime>div{
+	width:30px;
+	height:30px;
+	/*border:1px solid gray;*/
+	text-align:center;
+	line-height:30px;
+}
+/*时针*/
+#leftTime>div:nth-child(2){
+	position:absolute;
+	top:14px;
+	left:1048px;
+}
+#leftTime>#sec{
+	 position:absolute;
+	 top:14px;
+	 left:1103px;
+ }
+
+#leftTime>div:last-child{
+	position:absolute;
+	top:14px;
+	left:1158px;
+}
+.salPrice{
+	width:95px;
+	height:20px;
+	background:red;
+	color:white;
+	text-align:center;
+	line-height:20px;
+}
+.title{
+	text-align:center;
+	height:50px;
+	line-height:50px;
+	font-size:18px;
+	color:#9a9a9a;
+	margin:20px 0 20px 0;
+}
+#floor-1,#floor-2 div.floor a{
+	margin-bottom:20px;
+}
+.floor{
+	margin:40px 0 40px 0;
+}
+/*****************¥����***************/
+.text-detail{
+	width:100%;
+	height:69px;
+	border:1px solid #E8E7EC;
+	border-top:none;
+	line-height:69px;
+	font-size:14px;
+	font-family: "Microsoft YaHei";
+}
+
+.text-detail>span{
+	color:red;
+	margin-right:15px;
+}
+h4{
+	margin-left:15px;
+}
+/********ͨ������߾�***********/
+.top{
+	margin-top:20px;
+}
